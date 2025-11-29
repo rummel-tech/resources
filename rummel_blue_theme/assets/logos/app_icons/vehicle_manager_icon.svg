@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vehicle Manager App Icon -->
+  <defs>
+    <linearGradient id="vehicle-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="60" height="60" rx="12" fill="url(#vehicle-grad)"/>
+
+  <!-- Car icon -->
+  <path d="M 15 30 L 20 22 L 40 22 L 45 30 L 45 40 L 42 40 L 42 42 L 38 42 L 38 40 L 22 40 L 22 42 L 18 42 L 18 40 L 15 40 Z" fill="white"/>
+  <rect x="22" y="25" width="6" height="4" rx="1" fill="#2196F3"/>
+  <rect x="32" y="25" width="6" height="4" rx="1" fill="#2196F3"/>
+  <circle cx="20" cy="38" r="2" fill="#2196F3"/>
+  <circle cx="40" cy="38" r="2" fill="#2196F3"/>
+
+  <!-- Small R badge -->
+  <circle cx="48" cy="12" r="8" fill="#FF9800"/>
+  <text x="48" y="16" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">R</text>
+</svg>

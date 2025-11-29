@@ -1,0 +1,21 @@
+name: rummel_blue_theme
+description: Unified theme package for all Rummel applications (Workout Planner, Meal Planner, Home Manager, Vehicle Manager)
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
